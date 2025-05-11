@@ -4,20 +4,35 @@
   "description": "Folder control for multiple files.",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.99.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "developer-octopus.view"
+  ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "developer-octopus.helloWorld",
-        "title": "Hello World"
-      }
-    ]
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "developer-octopus",
+          "title": "Developer Octopus",
+          "icon": "resources/icon-octopus.png"
+        }
+      ]
+    },
+    "views": {
+      "developer-octopus": [
+        {
+          "id": "developer-octopus.view",
+          "name": "Developer Octopus",
+          "type": "webview",
+          "icon": "resources/icon-octopus.png"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
