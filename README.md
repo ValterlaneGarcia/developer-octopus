@@ -1,17 +1,17 @@
-# ?? Developer Octopus
+#  Developer Octopus
 
-Extens„o para o Visual Studio Code que permite a criaÁ„o de **grupos personalizados** para organizar seus arquivos de forma mais eficiente durante o desenvolvimento.
+Extens√£o para o Visual Studio Code que permite a cria√ß√£o de **grupos personalizados** para organizar seus arquivos de forma mais eficiente durante o desenvolvimento.
 
-## ? Funcionalidades
+##  Funcionalidades
 
-- CriaÁ„o de grupos (abas personalizadas)
+- Cria√ß√£o de grupos (abas personalizadas)
 - Interface moderna com inputs animados
 - Escolha de cores para cada grupo
-- InteraÁ„o entre a Webview e a extens„o
-- Bot„o "Salvar" que sÛ È habilitado apÛs criaÁ„o de um grupo
+- Intera√ß√£o entre a Webview e a extens√£o
+- Bot√£o "Salvar" que s√≥ √© habilitado ap√≥s cria√ß√£o de um grupo
 
-## ?? InstalaÁ„o
+##  Instala√ß√£o
 
-1. Clone este repositÛrio:
+1. Clone este reposit√≥rio:
    ```bash
    git clone https://github.com/seu-usuario/developer-octopus.git
