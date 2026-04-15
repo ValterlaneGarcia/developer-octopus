@@ -8,7 +8,7 @@ Extensão para o Visual Studio Code que permite a criação de **grupos personal
 - Interface moderna com inputs animados
 - Escolha de cores para cada grupo
 - Interação entre a Webview e a extensão
-- Botão "Salvar" que só é habilitado após criação de um grupo
+- Botão "Salvar" que só é habilitado após criação de um grupo.
 
 ##  Instalação
 
